@@ -29,6 +29,8 @@ def read_data():
     
     return data.iloc[:40000,:], data.iloc[40000:,:]
 
+#fixes some bad rows and seperates data into train and test - note the seperation is not random, it should be.
+#dependency collumns are split into rough lists for future
 train, test = read_data()
 
 def process_data(data):
@@ -51,6 +53,8 @@ def process_data(data):
         feature_set = []
     return dataset
 
+#data should be organized into a list of lists [gerund type, gerund, (dependency type, word, pos, word2, pos2) ....]
+#['vp-ing', 'hearing', ('xcomp', 'hearing', '5', 'remember', '4'), ('obj', 'phrase', '7', 'hearing', '5'), ('advmod', 'much', '13', 'hearing', '5'), ('obl', 'mid', '1960s', 'hearing', '5)')]
 train_raw = process_data(train)
 test_raw = process_data(test)
 #print(train_raw[:5])
@@ -64,10 +68,12 @@ def count_identifiers(data):
             identifier_counts[identifier] = identifier_counts.get(identifier, 0) + 1
     return identifier_counts
 
+#gets list of all dependencies
 dependencies = count_identifiers(train_raw).keys()
 
 #print(dependencies)
 
+#all features are binary, set to false, or true if dependecy exists for sample
 def makeFeatures(item):
     
     features = {f: False for f in dependencies}
@@ -80,6 +86,7 @@ def makeFeatures(item):
     return features
 
 
+#make features/lables for training and testing
 X_train = [makeFeatures(s) for s in train_raw]
 y_train = [s[0] for s in train_raw]
 
@@ -91,6 +98,7 @@ y_test = [s[0] for s in test_raw]
 x_test_array = np.array([[sample[feature_name] for feature_name in feature_names] for sample in X_test])
 
 
+#calssifier time
 knn = KNeighborsClassifier(n_neighbors=5, metric='jaccard')
 
 feature_names = list(count_identifiers(train_raw).keys())
