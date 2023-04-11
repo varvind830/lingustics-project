@@ -1,0 +1,120 @@
+
+generating results for hidden layers: 2
+
+0: case-post, amod-post, det-post, nmod-post, nmod-prior, obl-prior, obl-post, obj-prior, compound-post, nsubj-prior, nmod:poss-post, acl-post, xcomp-post, acl:relcl-post, nsubj:pass-prior, xcomp-prior, advcl-post, csubj-prior, appos-post, cop-post
+1: advcl-prior, mark-post, obj-post, acl-prior, conj-prior, cc-post, case-prior, aux:pass-prior, nmod-other, fixed-post, cop-prior, advcl-other, advmod-post, ccomp-post, acl-other, obj-other, amod-prior, case-other, compound-other, obl-other
+ 
+0: 
+[('ing-of', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('vp-ing', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0), ('poss-ing-of', 0.0), ('acc-ing', 0.0), ('poss-ing', 0.0)]
+{'ing-of': 4, 'det-ing': 2, 'vp-ing': 1, 'poss-ing-of': 1, 'acc-ing': 1, 'poss-ing': 1}
+
+1: 
+[('vp-ing', -4.97359486928417e-10), ('vp-ing', -9.802421097049319e-10), ('vp-ing', -9.802421097049319e-10), ('acc-ing', -3.72368011980484e-08), ('vp-ing', -2.3075560617868973e-07), ('vp-ing', -2.418414171145855e-07), ('vp-ing', -3.911843271531268e-07), ('vp-ing', -4.952422192339156e-07), ('vp-ing', -7.157826531489775e-07), ('vp-ing', -7.157826531489775e-07)]
+{'vp-ing': 9, 'acc-ing': 1}
+
+
+generating results for hidden layers: 3
+
+0: obj-post, mark-post, advcl-prior, case-post, acl-prior, obl-post, amod-post, det-post, nmod-post, nmod-prior, obl-prior, case-prior, obj-prior, compound-post, nsubj-prior, nmod:poss-post, aux:pass-prior, xcomp-post, fixed-post, advmod-post
+1: conj-prior, cc-post, punct-post, compound-other, amod-other, appos-other, acl:relcl-other, ccomp-other, conj-post, parataxis-prior, dep-post, nummod-other, dep-other, csubj:pass-other
+2: obl-other, advcl-other, obj-other, conj-other, acl-other, nsubj-other, nsubj-post, parataxis-other, cop-post, ccomp-prior, aux-post, acl:relcl-prior, csubj-other, parataxis-post, expl-post, csubj-post, obl:npmod-other, vocative-post, aux-other, obl:tmod-prior
+ 
+0: 
+[('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', -4.440892098500626e-16), ('vp-ing', -8.881784197001252e-16), ('vp-ing', -3.9968028886505635e-15)]
+{'vp-ing': 10}
+
+1: 
+[('vp-ing', -1.687538997430238e-14), ('vp-ing', -1.687538997430238e-14), ('vp-ing', -1.687538997430238e-14), ('vp-ing', -1.687538997430238e-14), ('vp-ing', -1.687538997430238e-14), ('acc-ing', -4.796163466380676e-14), ('vp-ing', -6.52811138479592e-14), ('vp-ing', -6.52811138479592e-14), ('vp-ing', -6.52811138479592e-14), ('vp-ing', -6.52811138479592e-14)]
+{'vp-ing': 9, 'acc-ing': 1}
+
+2: 
+[('ing-of', 0.0), ('acc-ing', 0.0), ('poss-ing-of', 0.0), ('ing-of', -6.8833827526759706e-15), ('ing-of', -6.8833827526759706e-15), ('vp-ing', -9.992007221626409e-15), ('ing-of', -9.992007221626409e-15), ('ing-of', -9.992007221626409e-15), ('ing-of', -1.021405182655144e-14), ('ing-of', -4.8405723873656825e-14)]
+{'ing-of': 7, 'acc-ing': 1, 'poss-ing-of': 1, 'vp-ing': 1}
+
+
+generating results for hidden layers: 4
+
+0: case-post, det-post, nmod-post, amod-post, nmod-prior, obl-prior, obj-prior, compound-post, nsubj-prior, nmod:poss-post, acl-post, acl:relcl-post, xcomp-post, xcomp-prior, csubj-prior, ccomp-post, appos-post, nummod-post, det:predet-post, nmod:poss-prior
+1: obj-post, mark-post, advcl-prior, acl-prior, obl-post, aux:pass-prior, advcl-post, cop-prior, nsubj:pass-prior, compound:prt-post, appos-prior, amod-prior, case-other, compound-prior, xcomp-other, cc-other, acl-other, punct-other, det-other, iobj-post
+2: conj-prior, cc-post, case-prior, nmod-other, fixed-post, obl-other, compound-other, conj-post, advcl-other, ccomp-other, acl:relcl-other, nsubj-other, amod-other, conj-other, parataxis-other, appos-other, csubj:pass-prior, dep-other, csubj:pass-other, cop-other
+3: punct-post, nsubj-post, cop-post, advmod-post, parataxis-prior, ccomp-prior, parataxis-post, obj-other, aux-post, acl:relcl-prior, dep-post, expl-post, list-post, csubj-post, nsubj:pass-other, discourse-post, vocative-post, advmod-other, vocative-prior, dep-prior
+ 
+0: 
+[('acc-ing', 0.0), ('det-ing', 0.0), ('vp-ing', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0)]
+{'acc-ing': 1, 'det-ing': 4, 'vp-ing': 1, 'ing-of': 4}
+
+1: 
+[('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0)]
+{'vp-ing': 10}
+
+2: 
+[('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15)]
+{'vp-ing': 10}
+
+3: 
+[('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('vp-ing', 0.0), ('acc-ing', 0.0), ('ing-of', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('ing-of', 0.0), ('acc-ing', 0.0)]
+{'ing-of': 5, 'vp-ing': 3, 'acc-ing': 2}
+
+
+generating results for hidden layers: 5
+
+0: case-post, det-post, amod-post, nmod-post, nmod-prior, obl-prior, obj-prior, compound-post, nmod:poss-post, nsubj-prior, acl-post, acl:relcl-post, xcomp-prior, nsubj:pass-prior, csubj-prior, appos-post, cop-post, conj-post, nummod-post, nsubj-post
+1: obj-post, mark-post, advcl-prior, acl-prior, obl-post, case-prior, aux:pass-prior, advcl-post, advmod-post, fixed-post, cop-prior, xcomp-post, ccomp-post, compound:prt-post, amod-prior, appos-prior, case-other, compound-prior, cc-other, punct-other
+2: conj-prior, cc-post, punct-post, compound-other, amod-other, appos-other, nsubj-other, parataxis-prior, dep-post, nummod-other, dep-other
+3: nmod-other, obl-other, acl-other, conj-other, xcomp-other, ccomp-other, acl:relcl-other, parataxis-other, csubj-other, acl:relcl-prior, csubj:pass-prior, csubj:pass-other, parataxis-post, flat-prior, aux-other, nmod:tmod-prior
+4: advcl-other, obj-other, obl:tmod-other, obl:tmod-prior
+ 
+0: 
+[('vp-ing', 0.0), ('ing-of', 0.0), ('poss-ing', 0.0), ('det-ing', 0.0), ('acc-ing', 0.0), ('det-ing', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0)]
+{'vp-ing': 1, 'ing-of': 5, 'poss-ing': 1, 'det-ing': 2, 'acc-ing': 1}
+
+1: 
+[('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0)]
+{'vp-ing': 10}
+
+2: 
+[('vp-ing', -1.1546319456101628e-14), ('vp-ing', -1.1546319456101628e-14), ('vp-ing', -1.1546319456101628e-14), ('vp-ing', -1.1546319456101628e-14), ('vp-ing', -1.1546319456101628e-14), ('acc-ing', -3.375077994860476e-14), ('vp-ing', -4.574118861455645e-14), ('vp-ing', -4.574118861455645e-14), ('vp-ing', -4.574118861455645e-14), ('vp-ing', -4.574118861455645e-14)]
+{'vp-ing': 9, 'acc-ing': 1}
+
+3: 
+[('acc-ing', -7.702640747453415e-10), ('acc-ing', -7.703171434059186e-10), ('vp-ing', -5.1254058774929945e-09), ('ing-of', -3.9955180743955765e-06), ('ing-of', -3.9955180743955765e-06), ('ing-of', -3.9955180743955765e-06), ('det-ing', -3.9955180743955765e-06), ('ing-of', -3.99562135999787e-06), ('ing-of', -3.99562135999787e-06), ('vp-ing', -3.999824495615201e-06)]
+{'acc-ing': 2, 'vp-ing': 2, 'ing-of': 5, 'det-ing': 1}
+
+4: 
+[('vp-ing', -2.647805075195464e-08), ('vp-ing', -3.8539104907364674e-08), ('acc-ing', -1.0639051002854505e-06), ('vp-ing', -1.4053461891310771e-06), ('vp-ing', -1.4748588874312352e-06), ('poss-ing', -1.4898737096535886e-06), ('vp-ing', -1.4903167557048236e-06), ('vp-ing', -1.4918276577402523e-06), ('acc-ing', -1.496743108880122e-06), ('vp-ing', -1.5138385040039393e-06)]
+{'vp-ing': 7, 'acc-ing': 2, 'poss-ing': 1}
+
+
+generating results for hidden layers: 6
+
+0: case-post, det-post, nmod-post, amod-post, nmod-prior, obl-prior, acl-prior, obj-prior, compound-post, nmod:poss-post, acl-post, acl:relcl-post, xcomp-post, csubj-prior, appos-post, conj-post, nummod-post, det:predet-post, nmod:poss-prior, nmod:npmod-post
+1: obj-post, mark-post, advcl-prior, case-prior, nsubj-prior, aux:pass-prior, advcl-post, fixed-post, advmod-post, cop-prior, nsubj:pass-prior, ccomp-post, compound:prt-post, amod-prior, case-other, iobj-post, compound-prior, cc-other, punct-other, det-other
+2: conj-prior, cc-post, punct-post, advcl-other, compound-other, acl-other, amod-other, appos-other, nsubj-other, csubj-other, dep-post, nummod-other, dep-other, cop-other
+3: nsubj-post, cop-post, ccomp-prior, aux-post, acl:relcl-prior, parataxis-post, expl-post, csubj-post, parataxis-prior, nsubj:pass-other, discourse-post, advmod-other
+4: obl-other, nmod-other, conj-other, xcomp-other, ccomp-other, acl:relcl-other, parataxis-other, csubj:pass-prior, csubj:pass-other, nmod:tmod-prior
+5: obl-post, xcomp-prior, appos-prior, obl:tmod-post, flat-other, list-other, obl:tmod-prior, nmod:npmod-other, aux-other
+ 
+0: 
+[('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0), ('ing-of', 0.0), ('poss-ing', 0.0)]
+{'ing-of': 8, 'det-ing': 1, 'poss-ing': 1}
+
+1: 
+[('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', 0.0), ('vp-ing', -4.440892098500626e-16), ('vp-ing', -4.440892098500626e-16), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15), ('vp-ing', -2.6645352591003757e-15)]
+{'vp-ing': 10}
+
+2: 
+[('vp-ing', -1.474376176702208e-13), ('vp-ing', -1.474376176702208e-13), ('vp-ing', -1.474376176702208e-13), ('vp-ing', -1.474376176702208e-13), ('vp-ing', -1.474376176702208e-13), ('acc-ing', -4.11226608321158e-13), ('vp-ing', -5.6754601018838e-13), ('vp-ing', -5.6754601018838e-13), ('vp-ing', -5.6754601018838e-13), ('vp-ing', -5.6754601018838e-13)]
+{'vp-ing': 9, 'acc-ing': 1}
+
+3: 
+[('det-ing', 0.0), ('acc-ing', 0.0), ('vp-ing', 0.0), ('det-ing', 0.0), ('vp-ing', 0.0), ('ing-of', 0.0), ('acc-ing', 0.0), ('ing-of', 0.0), ('det-ing', 0.0), ('ing-of', 0.0)]
+{'det-ing': 3, 'acc-ing': 2, 'vp-ing': 2, 'ing-of': 3}
+
+4: 
+[('vp-ing', -1.6851056106048645e-09), ('vp-ing', -1.368937013535021e-05), ('det-ing', -1.4443591280444146e-05), ('ing-of', -1.4443591280444146e-05), ('ing-of', -1.4443591280444146e-05), ('ing-of', -1.4443591280444146e-05), ('poss-ing', -1.4444653317902123e-05), ('poss-ing', -1.4444653317902123e-05), ('vp-ing', -1.4445104322913238e-05), ('vp-ing', -1.4445104322913238e-05)]
+{'vp-ing': 4, 'det-ing': 1, 'ing-of': 3, 'poss-ing': 2}
+
+5: 
+[('vp-ing', -1.3646069385586657e-08), ('vp-ing', -1.4067935705242007e-08), ('vp-ing', -1.4083286981048104e-08), ('vp-ing', -1.4400279413351313e-08), ('vp-ing', -1.9600183420731554e-07), ('vp-ing', -1.964547604593747e-07), ('acc-ing', -1.9796057570964365e-07), ('acc-ing', -1.9851843491291987e-07), ('vp-ing', -1.992805157557953e-07), ('vp-ing', -1.9957142416426876e-07)]
+{'vp-ing': 8, 'acc-ing': 2}
+
